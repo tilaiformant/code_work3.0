@@ -1,3 +1,4 @@
+/*     ch3_4_1.c        */
 #include <stdio.h>
 
 int main()
@@ -6,7 +7,7 @@ int main()
 
     i = 3;
     j = 4;
-    printf("exercise ch%d_%d.c \n" ,i,j);
+    printf("i + j = %d\n",i + j);
 
     getchar();
     return 0;
