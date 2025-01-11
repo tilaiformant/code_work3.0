@@ -2,8 +2,11 @@
 
 int main()
 {
-    printf("C 程式語言\n");
-    printf("C 程式語言\n");
+    int i,j;
+
+    i = 3;
+    j = 4;
+    printf("exercise ch%d_%d.c \n" ,i,j);
 
     getchar();
     return 0;
