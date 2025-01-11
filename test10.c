@@ -1,13 +1,17 @@
-/*     ch3_4_1.c        */
+/*     ch3_5.c        */
 #include <stdio.h>
 
 int main()
 {
-    int i,j;
+    float i;
 
-    i = 3;
-    j = 4;
-    printf("i + j = %d\n",i + j);
+    i = 123.56;
+    printf("/%f/\n",i);
+    printf("/%3.2f/\n",i);
+    printf("/%8.2f/\n",i);
+    printf("/%-8.2f/\n",i);
+    printf("/%+8.2f/\n",i);
+    printf("/%08.2f/\n",i);
 
     getchar();
     return 0;
