@@ -3,16 +3,11 @@
 
 int main()
 {
-    float i;
-
-    i = 123.56;
-    printf("/%f/\n",i);
-    printf("/%3.2f/\n",i);
-    printf("/%8.2f/\n",i);
-    printf("/%-8.2f/\n",i);
-    printf("/%+8.2f/\n",i);
-    printf("/%08.2f/\n",i);
-
+    char i;
+    i = 'a';
+    printf("/%c/\n",i);
+    printf("/%3c/\n",i);
+    printf("/%-3c/\n",i);
     getchar();
     return 0;
 
