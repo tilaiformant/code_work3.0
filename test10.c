@@ -3,11 +3,10 @@
 
 int main()
 {
-    char ch1 = '\t';     /* 設定Tab鍵字元 */
-    printf("Java%c", ch1);
-    printf("C%c", ch1);
-    printf("Python%c", ch1);
-    printf("\n");   
+    
+    printf("\x4A\x4B\x4C\x4D\x4D\x4E\n");
+    printf("\x6A\x6B\x6C\x6D\x6D\x6E\n");
+
      
 
     getchar();
