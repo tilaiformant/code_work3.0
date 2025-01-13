@@ -3,7 +3,7 @@
 
 int main()
 {
-    char ch = 'A';  /* 設定字元變數為A */
+    char ch = 70;  /* 設定字元變數為70 */
 
     printf("ch = %c\n",ch);         /* 印變數 */
     printf("ASCII of ch = %d\n", ch); /* 印碼值 */
