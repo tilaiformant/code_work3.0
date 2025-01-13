@@ -3,21 +3,16 @@
 
 int main()
 {
-      int i,j,k;
-      printf("請輸入 10 進位數值 : ");
-      scanf("%d",&i);
-      printf("請輸入 8 進位數值 : ");
-      scanf("%o",&j);
-      printf("請輸入 16 進位數值 : ");
-      scanf("%x",&k);
-      printf("i = %d\n",i);
-      printf("j = %d\n",j);
-      printf("k = %d\n",k);
-      printf("i + j + k = %d\n",i + j + k);
+      float a, b;
 
+      printf("請輸入浮點數 : ");
+      scanf("%f",&a);
+      printf("請輸入科學記號浮點數 : ");
+      scanf("%e",&b);
+      printf("a = %f\n",a);
+      printf("b = %e\n",b);
+      printf("a + b = %6.3f\n",a + b);
        
-
-     
 
     getchar();
     return 0;
