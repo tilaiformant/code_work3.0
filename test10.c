@@ -3,10 +3,13 @@
 
 int main()
 {
-    char ch = 70;  /* 設定字元變數為70 */
+    char ch1 = '\a';
+    printf("%c\n", ch1);   /* 響一聲,沒有其他輸出 */
+    printf("ASCII of beep = %d\n", ch1);  /* 印出 ch1 的ASCII值   */
+    char ch2 = 7;
+    printf("%c\n", ch2);   /* 響一聲,沒有其他輸出 */
+    printf("ASCII of beep = %d\n", ch2); /* 印出 ch2 的ASCII值  */
 
-    printf("ch = %c\n",ch);         /* 印變數 */
-    printf("ASCII of ch = %d\n", ch); /* 印碼值 */
     getchar();
     return 0;
 
