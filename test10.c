@@ -1,14 +1,14 @@
-/*     ch3_5.c        */
+/*     ch3_11.c        */
 #include <stdio.h>
 
 int main()
 {
-    char ch1 = '\a';
-    printf("%c\n", ch1);   /* 響一聲,沒有其他輸出 */
-    printf("ASCII of beep = %d\n", ch1);  /* 印出 ch1 的ASCII值   */
-    char ch2 = 7;
-    printf("%c\n", ch2);   /* 響一聲,沒有其他輸出 */
-    printf("ASCII of beep = %d\n", ch2); /* 印出 ch2 的ASCII值  */
+    char ch1 = '\t';     /* 設定Tab鍵字元 */
+    printf("Java%c", ch1);
+    printf("C%c", ch1);
+    printf("Python%c", ch1);
+    printf("\n");   
+     
 
     getchar();
     return 0;
