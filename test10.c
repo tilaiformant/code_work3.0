@@ -3,15 +3,11 @@
 
 int main()
 {
-      float a, b;
+      int a, b;
 
-      printf("請輸入浮點數 : ");
-      scanf("%f",&a);
-      printf("請輸入科學記號浮點數 : ");
-      scanf("%e",&b);
-      printf("a = %f\n",a);
-      printf("b = %e\n",b);
-      printf("a + b = %6.3f\n",a + b);
+      printf("請輸入兩個整數 : ");
+      scanf("%d %d",&a, &b);
+      printf("a + b = %d\n",a + b);
        
 
     getchar();
