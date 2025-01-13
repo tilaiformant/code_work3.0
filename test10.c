@@ -3,11 +3,10 @@
 
 int main()
 {
-    char i;
-    i = 'a';
-    printf("/%c/\n",i);
-    printf("/%3c/\n",i);
-    printf("/%-3c/\n",i);
+    char ch = 'A';  /* 設定字元變數為A */
+
+    printf("ch = %c\n",ch);         /* 印變數 */
+    printf("ASCII of ch = %d\n", ch); /* 印碼值 */
     getchar();
     return 0;
 
