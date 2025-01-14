@@ -3,12 +3,16 @@
 
 int main()
 {   
-    float f,c;
+    float height, weight, bmi;
 
-    printf("請輸入華氏溫度 \n==>");
-    scanf("%f",&f);
-    c = ( 5.0 / 9.0 ) * ( f - 32.0 );
-    printf("攝氏溫度是 %6.2f \n",c);
+
+    printf("輸入身高(公尺) \n",height);
+    scanf("%f",&height);
+    printf("輸入體重(公斤) \n",weight);
+    scanf("%f",&weight);
+    bmi = weight / (height * height);
+    printf("bmi值為: %2f",bmi);
+
 
 
     getchar();
