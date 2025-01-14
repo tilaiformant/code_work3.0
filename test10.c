@@ -3,13 +3,13 @@
 
 int main()
 {   
-    int i;
-    char ch;
-    printf("請輸入 1 個整數 \n==>");
-    scanf("%d",&i);
-    printf("請輸入 1 個字元 \n==>");
-    scanf(" %c",&ch); /* 可跳過不可列印字元 */
-    printf("整數是=%d, Ascii碼值是=%d, 字元是=%c \n",i,ch,ch);
+    float f,c;
+
+    printf("請輸入華氏溫度 \n==>");
+    scanf("%f",&f);
+    c = ( 5.0 / 9.0 ) * ( f - 32.0 );
+    printf("攝氏溫度是 %6.2f \n",c);
+
 
     getchar();
     return 0;
